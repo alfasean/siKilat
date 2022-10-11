@@ -1,0 +1,25 @@
+.container {
+    padding: 20px;
+}
+
+.sikilat {
+    color: #FFFFFF;
+    margin-left: 15px;
+    margin-bottom: 2px;
+}
+
+.nav-item {
+    margin-right: 5px;
+}
+
+.nav-link {
+    color: #FFFFFF;
+}
+
+.nav-link:hover {
+    color: #FFFFFF;
+}
+
+.nav-link:visited {
+    color: #FFFFFF;
+}
