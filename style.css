@@ -21,6 +21,7 @@
     font-family: "Poppins", sans-serif;
 }
 
+
 .nav-item {
     margin-right: 5px;
 }
@@ -39,11 +40,6 @@
     color: #FFFFFF;
 }
 
-.slide {
-    width: 110%;
-    height: 600px;
-}
-
 
 .img-banner {
     width: 700px;
@@ -51,44 +47,55 @@
     margin-right: 40px;
 }
 
-
-
-/* batas */
-
-#click {
-    display: none;
-}
-
 /* .text-banner {
     width: 40%;
     margin-left: 40px;
     margin-top: 100px;
     font-family: "Poppins-med", sans-serif;
-}
-
-.text-banner h1 {
-    font-family: "Poppins", sans-serif !important;
 } */
 
-.click-me {
+#typing {
+    font-family: "Poppins", sans-serif;
+}
+   
+.tagline {
+    font-family: "Poppins", sans-serif;
+}
+
+
+#show {
+    display: none;
+}
+
+.show-btn {
     display: block;
     width: 120px;
     height: 40px;
-    background-color: #fc5185;
+    background-color: #256D85;
     border: 1px;
     color: white;
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
     position: absolute;
-    border-radius: 10px;
+    border-radius: 3px;
     
+}
+
+.popup {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,.8);
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
 }
 
 .table-div{
     display: none;
-    background: #fff;
+    background: #EFEFEF;
     width: 810px;
-    padding: 100px;
+    padding: 50px;
     box-shadow: 0 0 8px rgba(0,0,0,0.1);
     position: absolute;
     top: 50%;
@@ -96,9 +103,10 @@
     transform: translate(-50%, -50%);
 }
 
-#click:checked ~ .table-div {
+#show:checked ~ .table-div {
     display: block;
 }
+
 
 .table-div .close-btn{
     position: absolute;
@@ -109,7 +117,7 @@
   }
 
 .table-div .close-btn:hover{
-  color: #3498db;
+  color: #25316D;
 }
 
 .table-div .text{
@@ -117,6 +125,7 @@
   font-weight: 600;
   text-align: center;
 }
+
 
 .tabel {
   height: 45px;
@@ -131,16 +140,17 @@ section {
 }
 
 .kolom {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 120px;
+    margin-bottom: 100px;
 }
 
-.kolom .deskripsi {
+
+/* .kolom .deskripsi {
     font-size: 20px;
     font-weight: bold;
     font-family: 'comic sans ms';
     color: #364f6b;
-}
+} */
 
 h2 {
     font-family: 'comic sans ms';
@@ -178,3 +188,37 @@ h1 {
     margin: 10%;
     margin-top: 50px;
 }
+
+
+.back-to-top {
+    position: fixed;
+    right: 20px;
+    bottom: -40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    background-color: #0F3460;
+    opacity: 0;
+    border-radius: 50%;
+    transition: .2s ease-in-out;
+    z-index: 20px;
+  }
+
+  .back-to-top.show {
+    bottom: 20px;
+    opacity: 1;
+  }
+  
+  .back-to-top svg {
+    width: 20px;
+    height: 20px;
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 1px;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+  }
+
+ 
