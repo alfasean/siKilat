@@ -34,13 +34,13 @@
 }
 
 #logo {
-  height: 30px;
-  width: 30px;
+  height: 34px;
+  width: 34px;
   margin-right: 3px;
 }
 
 .nav-item {
-  margin-right: 5px;
+  margin-right: 15px;
   display: inline-block;
   position: relative;
 }
