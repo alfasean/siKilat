@@ -11,3 +11,10 @@ var backToTop = document.querySelector('.back-to-top');
             backToTop.classList.remove('show');
         }
         });
+
+$(document).ready(function () {
+    $.fakeLoader({
+        bgColor: '#2B4865',
+        spinner:"spinner6"
+    });
+});
