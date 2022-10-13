@@ -7,6 +7,17 @@
   src: url("font/Poppins-Medium.ttf");
 }
 
+.navbar {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.component {
+  margin-top: 8%;
+}
+
 .container-fluid {
   padding: 20px;
 }
@@ -138,13 +149,6 @@ section {
   margin-bottom: 100px;
   width: 100%;
 }
-
-/* .kolom .deskripsi {
-    font-size: 20px;
-    font-weight: bold;
-    font-family: 'comic sans ms';
-    color: #364f6b;
-} */
 
 h2 {
   font-family: "comic sans ms";
