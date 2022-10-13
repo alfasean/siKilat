@@ -1,133 +1,125 @@
-@font-face
-  {
-    font-family: 'Poppins'; 
-    src: url('font/Poppins-Black.ttf');
-  }
-@font-face
-  {
-    font-family: 'Poppins-med'; 
-    src: url('font/Poppins-Medium.ttf');
-  }
-
+@font-face {
+  font-family: "Poppins";
+  src: url("font/Poppins-Black.ttf");
+}
+@font-face {
+  font-family: "Poppins-med";
+  src: url("font/Poppins-Medium.ttf");
+}
 
 .container-fluid {
-    padding: 20px;
+  padding: 20px;
 }
 
 .navbar-brand {
-    color: #FFFFFF;
-    margin-left: 15px;
-    margin-bottom: 2px;
-    font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  margin-left: 15px;
+  margin-bottom: 2px;
+  font-family: "Poppins", sans-serif;
 }
 
 #logo {
-    height: 30px;
-    width: 30px;
-    margin-right: 3px;
+  height: 30px;
+  width: 30px;
+  margin-right: 3px;
 }
 
-
 .nav-item {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 .nav-link {
-    color: #FFFFFF;
-    font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
 }
 
 .nav-link:hover {
-    background-color: #16213E;
-    color: #FFFFFF;
+  background-color: #16213e;
+  color: #ffffff;
 }
 
 .nav-link:visited {
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
-
 .img-banner {
-    width: 700px;
-    height: 500px;
-    margin-right: 5px;
+  width: 700px;
+  height: 500px;
+  margin-right: 5px;
 }
 
 .text-banner {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .tagline {
-    font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 #typing {
-    font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-
 #show {
-    display: none;
+  display: none;
 }
 
 .show-btn {
-    display: block;
-    width: 140px;
-    height: 40px;
-    background-color: #F66B0E;
-    border: 1px;
-    color: white;
-    text-align: center;
-    font-size: 20px;
-    position: absolute;
-    border-radius: 3px;
+  display: block;
+  width: 140px;
+  height: 40px;
+  background-color: #f66b0e;
+  border: 1px;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  position: absolute;
+  border-radius: 3px;
 }
 
 .popup {
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(0,0,0,.8);
-    position: fixed;
-    left: 0;
-    top: 0;
-    display: none;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: none;
 }
 
-.table-div{
-    display: none;
-    background: #fff;
-    width: 810px;
-    padding: 50px;
-    box-shadow: 0 0 8px rgba(0,0,0,0.1);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.table-div {
+  display: none;
+  background: #fff;
+  width: 810px;
+  padding: 50px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #show:checked ~ .table-div {
-    display: block;
+  display: block;
 }
 
-
-.table-div .close-btn{
-    position: absolute;
-    right: 20px;
-    top: 15px;
-    font-size: 18px;
-    cursor: pointer;
-  }
-
-.table-div .close-btn:hover{
-  color: #25316D;
+.table-div .close-btn {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  font-size: 18px;
+  cursor: pointer;
 }
 
-.table-div .text{
+.table-div .close-btn:hover {
+  color: #25316d;
+}
+
+.table-div .text {
   font-size: 35px;
   font-weight: 600;
   text-align: center;
 }
-
 
 .tabel {
   height: 45px;
@@ -142,11 +134,10 @@ section {
 }
 
 .kolom {
-    margin-top: 120px;
-    margin-bottom: 100px;
-    width: 100%;
+  margin-top: 120px;
+  margin-bottom: 100px;
+  width: 100%;
 }
-
 
 /* .kolom .deskripsi {
     font-size: 20px;
@@ -156,142 +147,159 @@ section {
 } */
 
 h2 {
-    font-family: 'comic sans ms';
-    font-weight: 800;
-    font-size: 45px;
-    margin-bottom: 20px;
-    color: #364f6b;
-    width: 100%;
-    line-height: 50px;
+  font-family: "comic sans ms";
+  font-weight: 800;
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #364f6b;
+  width: 100%;
+  line-height: 50px;
 }
 
 h1 {
-    font-family: 'comic sans ms';
-    font-weight: 800;
-    font-size: 50px;
-    margin-bottom: 20px;
-    color: #364f6b;
-    width: 100%;
-    line-height: 50px;
+  font-family: "comic sans ms";
+  font-weight: 800;
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: #364f6b;
+  width: 100%;
+  line-height: 50px;
 }
 
 .data {
-    background-color: #16213E;
-    width: 100%;
-    box-shadow: inset 3px 3px 4px rgb(255, 255, 255);
-
+  background-color: #16213e;
+  width: 100%;
+  box-shadow: inset 3px 3px 4px rgb(255, 255, 255);
 }
 
-.col1 h2{
-    color: #FFFFFF;
-    padding-top: 2% ;
+.kontak {
+  background-color: #16213e;
+  width: 100%;
+  box-shadow: inset 3px 3px 4px rgb(255, 255, 255);
+}
+
+.mb-3 {
+  color: #ffffff;
+}
+
+.col1 h2 {
+  color: #ffffff;
+  padding-top: 2%;
 }
 
 .row {
-    margin: 10%;
-    margin-top: 50px;
+  margin: 10%;
+  margin-top: 50px;
 }
 
-
 .back-to-top {
-    position: fixed;
-    right: 20px;
-    bottom: -40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 38px;
-    height: 38px;
-    background-color: #2B4865;
-    opacity: 0;
-    border-radius: 50%;
-    transition: .2s ease-in-out;
-    z-index: 20px;
-  }
+  position: fixed;
+  right: 20px;
+  bottom: -40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  background-color: #2b4865;
+  opacity: 0;
+  border-radius: 50%;
+  transition: 0.2s ease-in-out;
+  z-index: 20px;
+}
 
-  .back-to-top.show {
-    bottom: 20px;
-    opacity: 1;
-  }
-  
-  .back-to-top svg {
-    width: 20px;
-    height: 20px;
-    fill: none;
-    stroke: #ffffff;
-    stroke-width: 1px;
-    stroke-linejoin: round;
-    stroke-linecap: round;
-  }
+.back-to-top.show {
+  bottom: 20px;
+  opacity: 1;
+}
 
+.back-to-top svg {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 1px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
 
 .fakeLoader {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    left: 0px;
-    top: 0px;
-    z-index: 9999999999; }
-  
-  .spinner6 {
-    position: fixed;
-    width: 50px;
-    height: 35px;
-    top: calc(50% - 35px/2);
-    left: calc(50% - 50px/2); }
-    .spinner6 div {
-      background-color: #fff;
-      height: 100%;
-      width: 5px;
-      margin-left: 2px;
-      display: inline-block;
-      -webkit-animation: stretchdelay 1.2s infinite ease-in-out;
-              animation: stretchdelay 1.2s infinite ease-in-out; }
-    .spinner6 .rect2 {
-      -webkit-animation-delay: -1.1s;
-              animation-delay: -1.1s; }
-    .spinner6 .rect3 {
-      -webkit-animation-delay: -1.0s;
-              animation-delay: -1.0s; }
-    .spinner6 .rect4 {
-      -webkit-animation-delay: -0.9s;
-              animation-delay: -0.9s; }
-    .spinner6 .rect5 {
-      -webkit-animation-delay: -0.8s;
-              animation-delay: -0.8s; }
-  
-  @keyframes stretchdelay {
-    0%, 40%, 100% {
-      -webkit-transform: scaleY(0.4);
-              transform: scaleY(0.4); }
-    20% {
-      -webkit-transform: scaleY(1);
-              transform: scaleY(1); } }
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: 9999999999;
+}
+
+.spinner6 {
+  position: fixed;
+  width: 50px;
+  height: 35px;
+  top: calc(50% - 35px / 2);
+  left: calc(50% - 50px / 2);
+}
+.spinner6 div {
+  background-color: #fff;
+  height: 100%;
+  width: 5px;
+  margin-left: 2px;
+  display: inline-block;
+  -webkit-animation: stretchdelay 1.2s infinite ease-in-out;
+  animation: stretchdelay 1.2s infinite ease-in-out;
+}
+.spinner6 .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+.spinner6 .rect3 {
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s;
+}
+.spinner6 .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+.spinner6 .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+@keyframes stretchdelay {
+  0%,
+  40%,
+  100% {
+    -webkit-transform: scaleY(0.4);
+    transform: scaleY(0.4);
+  }
+  20% {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+  }
+}
 
 @media only screen and (max-width: 986px) {
-    .kolom {
-        width: 50%;
-        float: right;
+  .kolom {
+    width: 50%;
+    float: right;
+  }
+  .img-banner {
+    width: 50%;
+    height: 500px;
+    float: left;
+  }
 
-    }
-    .img-banner {
-        width: 50%;
-        height: 500px;
-        float: left;
-    }
+  #typing {
+    font-size: 30px;
+  }
 
-    #typing {
-        font-size: 30px;
-    }
-
-    .tagline {
-        font-size: 30px;
-    }
+  .tagline {
+    font-size: 30px;
+  }
 }
 
 @media only screen and (max-width: 613px) {
-    .img-banner {
-        margin-top: 80px;
-    }
-    
+  .img-banner {
+    margin-top: 80px;
+  }
 }
