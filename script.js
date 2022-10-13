@@ -1,7 +1,7 @@
 var backToTop = document.querySelector('.back-to-top');
 
         window.addEventListener('scroll', () => {
-        if ( this.scrollY >= 40 ) {
+        if ( this.scrollY >= 450 ) {
             backToTop.classList.add('show');
 
             backToTop.addEventListener('click', () => {
