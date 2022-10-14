@@ -106,7 +106,6 @@
   border-radius: 3px;
 }
 
-
 .table-div {
   display: none;
   background: #fff;
@@ -160,6 +159,10 @@ section {
   float: right;
 }
 
+img {
+  border-radius: 50%;
+}
+
 h2 {
   font-family: "comic sans ms";
   font-weight: 800;
@@ -169,6 +172,7 @@ h2 {
   width: 100%;
   line-height: 50px;
 }
+
 
 h1 {
   font-family: "comic sans ms";
@@ -180,31 +184,48 @@ h1 {
   line-height: 50px;
 }
 
-.data {
-  background-color: #16213e;
-  width: 100%;
-  box-shadow: inset 3px 3px 4px rgb(255, 255, 255);
+#home {
+  padding-bottom: 2px;
+  margin-bottom: 2px;
+}
+.svg {
+  margin-top: 2px;
 }
 
-.kontak {
+#portofolio {
   background-color: #16213e;
-  width: 100%;
-  box-shadow: inset 3px 3px 4px rgb(255, 255, 255);
 }
 
-.mb-3 {
+#about {
+  margin-bottom: 1px;
+}
+
+#blog {
+  background-color: #16213e;
+}
+
+.col h2{
   color: #ffffff;
 }
 
-.col1 h2 {
+
+.kontak {
+  width: 100%;
+  margin-bottom: 2px;
+
+}
+
+
+.col1 {
   color: #ffffff;
   padding-top: 2%;
 }
 
 .row {
   margin: 10%;
-  margin-top: 50px;
+  margin-top: 10px;
 }
+
 
 .back-to-top {
   position: fixed;
