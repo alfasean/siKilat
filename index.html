@@ -1,303 +1,327 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>siKilat</title>
-    <link rel="icon" sizes="180x180" href="img/apple-icon-180x180.png">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>siKilat</title>
+  <link rel="icon" sizes="180x180" href="img/apple-icon-180x180.png">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 
-    
-    <nav class="navbar navbar-expand-lg  shadow-sm" style="background-color: #0F3460;">
-        <div class="container-fluid">
-              <a class="navbar-brand">
-                <img src="img/lightning.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top" id="logo">
-                siKilat
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="background-color: white;">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#home"><b>Home</b></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#portofolio"><b>Portofolio</b></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about"><b>About Us</b></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#blog"><b>Blog</b></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact"><b>Contact Us</b></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#todos"><b>Todos</b></a>
-                </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-</head>
-<body>
-    <div class="fakeLoader"></div>      
-    <div class="component">
-    <section id="home">
-        <img src="img/banner.png" class="img-banner">
-            <div class="kolom">
-                <div class="text-banner">
-                    <h1 id="typing">Welcome to siKilat</h1>
-                    <h1 class="tagline">Expand Your Business With Us</h1>
-                    <p class="text-1">Platform penyedia jasa UI/UX design, Pembuatan Website dan Aplikasi Android</p>
-            </div>
-                <input type="checkbox" id="show">
-                <div class="inner"></div>
-                <label for="show" class="show-btn"><b>Order Now</b></label>
-                <div class="table-div">
-                    <label for="show" class="close-btn fas fa-times" title="Close"></label>
-                    <div class="text">
-                        Price List
-                    </div>
-                    <table border="1" rules="rows" cellpadding="10" class="tabel">
-                        <tr>
-                            <th>Jasa</th>
-                            <th>Biaya</th>
-                            <th>Waktu</th>
-                        </tr>
-                        <tr>
-                            <td>UI/UX Design</td>
-                            <td>Rp 3.000.000</td>
-                            <td>10 Hari</td>
-                        </tr>
-                        <tr>
-                            <td>Pembuatan Website</td>
-                            <td>Rp 4.800.000</td>
-                            <td>30 Hari</td>
-                        </tr>
-                        <tr>
-                            <td>Pembuatan Aplikasi Android</td>
-                            <td>Rp 6.000.000</td>
-                            <td>45 Hari</td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-        </section>
-        <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#16213e" fill-opacity="1" d="M0,128L21.8,154.7C43.6,181,87,235,131,224C174.5,213,218,139,262,122.7C305.5,107,349,149,393,138.7C436.4,128,480,64,524,69.3C567.3,75,611,149,655,186.7C698.2,224,742,224,785,213.3C829.1,203,873,181,916,186.7C960,192,1004,224,1047,240C1090.9,256,1135,256,1178,256C1221.8,256,1265,256,1309,218.7C1352.7,181,1396,107,1418,69.3L1440,32L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"></path></svg>
-       
-        <section id="portofolio">
-              <div class="row">
-                <div class="row1 text-center">
-                    <div class="col">
-                        <h2>Portofolio</h2>
-                    </div>
-                </div> 
-                <div class="col-12 col-md-12 col-lg-4 ">
-                  <div class="card text-white text-center pb-2">
-                    <div class="card-body">
-                      <img src="img/alfa.jpg" width="105px" height="130px" >
-                      <h3 class="text-dark">Alfa</h3>
-                      <p class="text-dark">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur impedit odit minus dolorum consequuntur assumenda natus cupiditate eaque. Tempora sapiente quis maxime aut veritatis, similique provident fugit distinctio dolorum! Nihil!</p>
-                      <a href="https://admirable-cajeta-2558b6.netlify.app/" class="btn btn-warning text-dark" >Read More</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-md-12 col-lg-4">
-                  <div class="card text-white text-center pb-2">
-                    <div class="card-body">
-                      <img src="img/image.png" width="120px" height="130px">
-                      <h3 class="text-dark">Yulia</h3>
-                      <p class="text-dark">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur impedit odit minus dolorum consequuntur assumenda natus cupiditate eaque. Tempora sapiente quis maxime aut veritatis, similique provident fugit distinctio dolorum! Nihil!</p>
-                      <a href="#" class="btn btn-warning text-dark">Read More</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-md-12 col-lg-4">
-                  <div class="card text-white text-center pb-2">
-                    <div class="card-body">
-                      <img src="img/image.png" width="150px" height="130px">
-                      <h3 class="text-dark">Rofid</h3>
-                      <p class="text-dark">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur impedit odit minus dolorum consequuntur assumenda natus cupiditate eaque. Tempora sapiente quis maxime aut veritatis, similique provident fugit distinctio dolorum! Nihil!</p>
-                      <a href="#" class="btn btn-warning text-dark">Read More</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
 
-          
-        <section id="about">
-            <div class="container">
-              <div class="row text-center mb-3">
-                <div class="col1">
-                  <h2>About Us</h2>
-                </div>
-              </div>
-              <div class="row justify-content-center fs-5 text-center">
-                <div class="col-md-4">
-                  <p>Rekomendasi jasa pembuatan website terbaik dan profesional sebagai solusi untuk pengembangan bisnis anda adalah perusahaan siKilat. siKilat merupakan jasa pembuatan website terbaik di Indonesia. </p>
-                </div>
-                <div class="col-md-4">
-                  <p>Kami menyediakan solusi menyeluruh kebutuhan website untuk berbagai kepentingan yang dibangun menggunakan platform open source. Sehingga mudah digunakan dan dikelola. Masih ada banyak kebutuhan yang anda dapat dari jasa pembuatan website di siKilat. Beberapa diantaranya website terindex oleh Google Search, Desain Custom, dan masih banyak lagi. siKilat juga menyediakan layanan konsultasi, tim support dan training dasar untuk memberi kepuasan kepada klien.</p>
-                </div>
-                <div class="col-md-4">
-                  <p>Selain pembuatan website, kami juga memiliki layanan e-commerce dengan harga terjangkau bagi UMKM. Perusahaan juga membuka layanan maintenance, optimasi, kustomisasi, SEO. Ada juga jasa pembuatan dan maintenance aplikasi baik berbasis web maupun mobile.</p>
-                </div>
-              </div>
-            </div>
-            </section>
-            <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#16213e" fill-opacity="1" d="M0,128L21.8,154.7C43.6,181,87,235,131,224C174.5,213,218,139,262,122.7C305.5,107,349,149,393,138.7C436.4,128,480,64,524,69.3C567.3,75,611,149,655,186.7C698.2,224,742,224,785,213.3C829.1,203,873,181,916,186.7C960,192,1004,224,1047,240C1090.9,256,1135,256,1178,256C1221.8,256,1265,256,1309,218.7C1352.7,181,1396,107,1418,69.3L1440,32L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"></path></svg>
-        
-            <section id="blog">
-              <div class="row">
-                <div class="row1 text-center">
-                    <div class="col">
-                        <h2>Blog</h2>
-                    </div>
-                </div> 
-                <div class="col-12 col-md-12 col-lg-4">
-                  <div class="card text-white text-center pb-2">
-                    <div class="card-body">
-                      <img src="img/stres.jpg" width="130px" height="130px">
-                      <h3 class="text-dark">4 Tips Mengatasi Stres Kerja</h3>
-                      <p class="text-dark">Terkadang tekanan dalam pekerjaan bisa menimbulkan stres kerja. Hal tersebut cukup mengganggu karena bisa memengaruhi kondisi fisik dan mental pekerja.</p>
-                      <a href="https://www.alodokter.com/tips-mengatas-stres-kerja" class="btn btn-warning text-dark">Read More</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-md-12 col-lg-4">
-                  <div class="card text-white text-center pb-2">
-                    <div class="card-body">
-                      <img src="img/heroku.jpg" width="130px" height="125px">
-                      <h3 class="text-dark">Cara Deploy Project ke Heroku</h3>
-                      <p class="text-dark">Heroku adalah web hosting berbasis Cloud yang biasanya digunakan untuk mengembangkan web app menggunakan beragam bahasa pemrograman seperti Ruby, Node.js, Python, Java, PHP, dan lain-lain.</p>
-                      <a href="https://luqman.web.id/cara-deploy-project-ke-heroku/" class="btn btn-warning text-dark">Read More</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-md-12 col-lg-4">
-                  <div class="card text-white text-center pb-2">
-                    <div class="card-body">
-                      <img src="img/git.png" width="130px" height="130px">
-                      <h3 class="text-dark">Cara Menggunakan Git</h3>
-                      <p class="text-dark">Git adalah salah satu software penting dalam pengembangan website. Fungsi Git adalah untuk mengatur versi dari source code program Anda dengan memberikan tanda baris dan kode mana yang ditambah atau diganti.</p>
-                      <a href="https://www.niagahoster.co.id/blog/git-tutorial-dasar/" class="btn btn-warning text-dark">Read More</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-
-            <section id="contact">
-                <div class="kontak">
-                  <div class="row text-center mb-3">
-                    <div class="col1">
-                      <h2>Contact Us</h2>
-                    </div>
-                  </div>
-                  <div class="row justify-content-center">
-                    <div class="col-md-6">
-                      <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
-                        <strong>Thanks!</strong> Pesan anda sudah kami terima.
-                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                      </div>
-                      <form name="siKilat-contact-form">
-                        <div class="mb-3">
-                          <label for="name" class="form-label">Name</label>
-                          <input type="text" class="form-control" id="name" aria-describedby="name" name="name"/>
-                        </div>
-                        <div class="mb-3">
-                          <label for="email" class="form-label">Email</label>
-                          <input type="email" class="form-control" id="email" aria-describedby="email" name="email"/>
-                        </div>
-                        <div class="mb-3">
-                          <label for="pesan" class="form-label">Message</label>
-                          <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-submit">Submit</button>
-                        <button class="btn btn-primary btn-loading d-none" type="button" disabled>
-                          <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-                          Loading...
-                        </button>
-                      </form>
-                    </div>
-                  </div>
-                </div>
-                </section>
-        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#16213e" fill-opacity="1" d="M0,0L21.8,32C43.6,64,87,128,131,154.7C174.5,181,218,171,262,181.3C305.5,192,349,224,393,213.3C436.4,203,480,149,524,138.7C567.3,128,611,160,655,160C698.2,160,742,128,785,133.3C829.1,139,873,181,916,197.3C960,213,1004,203,1047,192C1090.9,181,1135,171,1178,165.3C1221.8,160,1265,160,1309,133.3C1352.7,107,1396,53,1418,26.7L1440,0L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"></path></svg>      -->
+  <nav class="navbar navbar-expand-lg  shadow-sm" style="background-color: #0F3460;">
+    <div class="container-fluid">
+      <a class="navbar-brand">
+        <img src="img/lightning.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top" id="logo">
+        siKilat
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="background-color: white;">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#home"><b>Home</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portofolio"><b>Portofolio</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about"><b>About Us</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#blog"><b>Blog</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact"><b>Contact Us</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#todos"><b>Todos</b></a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <footer class="footer">
-      <div class="container">
+  </nav>
+</head>
+
+<body>
+  <div class="fakeLoader"></div>
+  <div class="component">
+    <section id="home">
+      <img src="img/banner.png" class="img-banner">
+      <div class="kolom">
+        <div class="text-banner">
+          <h1 id="typing">Welcome to siKilat</h1>
+          <h1 class="tagline">Expand Your Business With Us</h1>
+          <p class="text-1">Platform penyedia jasa UI/UX design, Pembuatan Website dan Aplikasi Android</p>
+        </div>
+        <input type="checkbox" id="show">
+        <div class="inner"></div>
+        <label for="show" class="show-btn"><b>Order Now</b></label>
+
+        <input type="checkbox" id="show">
+        <div class="inner"></div>
+        <label for="show" class="todos-btn"><b>Todos</b></label>
+        <div class="table-div">
+          <label for="show" class="close-btn fas fa-times" title="Close"></label>
+          <div class="text">
+            Price List
+          </div>
+          <table border="1" rules="rows" cellpadding="10" class="tabel">
+            <tr>
+              <th>Jasa</th>
+              <th>Biaya</th>
+              <th>Waktu</th>
+            </tr>
+            <tr>
+              <td>UI/UX Design</td>
+              <td>Rp 3.000.000</td>
+              <td>10 Hari</td>
+            </tr>
+            <tr>
+              <td>Pembuatan Website</td>
+              <td>Rp 4.800.000</td>
+              <td>30 Hari</td>
+            </tr>
+            <tr>
+              <td>Pembuatan Aplikasi Android</td>
+              <td>Rp 6.000.000</td>
+              <td>45 Hari</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+    <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#16213e" fill-opacity="1"
+        d="M0,128L21.8,154.7C43.6,181,87,235,131,224C174.5,213,218,139,262,122.7C305.5,107,349,149,393,138.7C436.4,128,480,64,524,69.3C567.3,75,611,149,655,186.7C698.2,224,742,224,785,213.3C829.1,203,873,181,916,186.7C960,192,1004,224,1047,240C1090.9,256,1135,256,1178,256C1221.8,256,1265,256,1309,218.7C1352.7,181,1396,107,1418,69.3L1440,32L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z">
+      </path>
+    </svg>
+
+    <section id="portofolio">
       <div class="row">
-        
+        <div class="row1 text-center">
+          <div class="col">
+            <h2>Portofolio</h2>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-4 ">
+          <div class="card text-white text-center pb-2">
+            <div class="card-body">
+              <img src="img/alfa.jpg" width="105px" height="130px">
+              <h3 class="text-dark">Alfa</h3>
+              <p class="text-dark">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur impedit odit
+                minus dolorum consequuntur assumenda natus cupiditate eaque. Tempora sapiente quis maxime aut veritatis,
+                similique provident fugit distinctio dolorum! Nihil!</p>
+              <a href="https://admirable-cajeta-2558b6.netlify.app/" class="btn btn-warning text-dark">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-white text-center pb-2">
+            <div class="card-body">
+              <img src="img/image.png" width="120px" height="130px">
+              <h3 class="text-dark">Yulia</h3>
+              <p class="text-dark">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur impedit odit
+                minus dolorum consequuntur assumenda natus cupiditate eaque. Tempora sapiente quis maxime aut veritatis,
+                similique provident fugit distinctio dolorum! Nihil!</p>
+              <a href="#" class="btn btn-warning text-dark">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-white text-center pb-2">
+            <div class="card-body">
+              <img src="img/image.png" width="150px" height="130px">
+              <h3 class="text-dark">Rofid</h3>
+              <p class="text-dark">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur impedit odit
+                minus dolorum consequuntur assumenda natus cupiditate eaque. Tempora sapiente quis maxime aut veritatis,
+                similique provident fugit distinctio dolorum! Nihil!</p>
+              <a href="#" class="btn btn-warning text-dark">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="about">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col1">
+            <h2>About Us</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5 text-center">
+          <div class="col-md-4">
+            <p>Rekomendasi jasa pembuatan website terbaik dan profesional sebagai solusi untuk pengembangan bisnis anda
+              adalah perusahaan siKilat. siKilat merupakan jasa pembuatan website terbaik di Indonesia. </p>
+          </div>
+          <div class="col-md-4">
+            <p>Kami menyediakan solusi menyeluruh kebutuhan website untuk berbagai kepentingan yang dibangun menggunakan
+              platform open source. Sehingga mudah digunakan dan dikelola. Masih ada banyak kebutuhan yang anda dapat
+              dari jasa pembuatan website di siKilat. Beberapa diantaranya website terindex oleh Google Search, Desain
+              Custom, dan masih banyak lagi. siKilat juga menyediakan layanan konsultasi, tim support dan training dasar
+              untuk memberi kepuasan kepada klien.</p>
+          </div>
+          <div class="col-md-4">
+            <p>Selain pembuatan website, kami juga memiliki layanan e-commerce dengan harga terjangkau bagi UMKM.
+              Perusahaan juga membuka layanan maintenance, optimasi, kustomisasi, SEO. Ada juga jasa pembuatan dan
+              maintenance aplikasi baik berbasis web maupun mobile.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#16213e" fill-opacity="1"
+        d="M0,128L21.8,154.7C43.6,181,87,235,131,224C174.5,213,218,139,262,122.7C305.5,107,349,149,393,138.7C436.4,128,480,64,524,69.3C567.3,75,611,149,655,186.7C698.2,224,742,224,785,213.3C829.1,203,873,181,916,186.7C960,192,1004,224,1047,240C1090.9,256,1135,256,1178,256C1221.8,256,1265,256,1309,218.7C1352.7,181,1396,107,1418,69.3L1440,32L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z">
+      </path>
+    </svg>
+
+    <section id="blog">
+      <div class="row">
+        <div class="row1 text-center">
+          <div class="col">
+            <h2>Blog</h2>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-white text-center pb-2">
+            <div class="card-body">
+              <img src="img/stres.jpg" width="130px" height="130px">
+              <h3 class="text-dark">4 Tips Mengatasi Stres Kerja</h3>
+              <p class="text-dark">Terkadang tekanan dalam pekerjaan bisa menimbulkan stres kerja. Hal tersebut cukup
+                mengganggu karena bisa memengaruhi kondisi fisik dan mental pekerja.</p>
+              <a href="https://www.alodokter.com/tips-mengatas-stres-kerja" class="btn btn-warning text-dark">Read
+                More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-white text-center pb-2">
+            <div class="card-body">
+              <img src="img/heroku.jpg" width="130px" height="125px">
+              <h3 class="text-dark">Cara Deploy Project ke Heroku</h3>
+              <p class="text-dark">Heroku adalah web hosting berbasis Cloud yang biasanya digunakan untuk mengembangkan
+                web app menggunakan beragam bahasa pemrograman seperti Ruby, Node.js, Python, Java, PHP, dan lain-lain.
+              </p>
+              <a href="https://luqman.web.id/cara-deploy-project-ke-heroku/" class="btn btn-warning text-dark">Read
+                More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-white text-center pb-2">
+            <div class="card-body">
+              <img src="img/git.png" width="130px" height="130px">
+              <h3 class="text-dark">Cara Menggunakan Git</h3>
+              <p class="text-dark">Git adalah salah satu software penting dalam pengembangan website. Fungsi Git adalah
+                untuk mengatur versi dari source code program Anda dengan memberikan tanda baris dan kode mana yang
+                ditambah atau diganti.</p>
+              <a href="https://www.niagahoster.co.id/blog/git-tutorial-dasar/" class="btn btn-warning text-dark">Read
+                More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="kontak">
+        <div class="row text-center mb-3">
+          <div class="col1">
+            <h2>Contact Us</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+              <strong>Thanks!</strong> Pesan anda sudah kami terima.
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <form name="siKilat-contact-form">
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" name="name" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" name="email" />
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Message</label>
+                <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-submit">Submit</button>
+              <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                Loading...
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div>
+    </section>
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#16213e" fill-opacity="1" d="M0,0L21.8,32C43.6,64,87,128,131,154.7C174.5,181,218,171,262,181.3C305.5,192,349,224,393,213.3C436.4,203,480,149,524,138.7C567.3,128,611,160,655,160C698.2,160,742,128,785,133.3C829.1,139,873,181,916,197.3C960,213,1004,203,1047,192C1090.9,181,1135,171,1178,165.3C1221.8,160,1265,160,1309,133.3C1352.7,107,1396,53,1418,26.7L1440,0L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"></path></svg>      -->
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
         <div class="footer-col">
-        
-        <h4>company</h4>
-        <ul>
-          <li><a href='#home'>Home</a></li>
-          <li><a href='#portofolio'>Portofolio</a></li>
-          <li><a href='#about'>About Us</a></li>
-          <li><a href='#blog'>Blog</a></li>
-          <li><a href='#contact'>Contact Us</a></li>
-          <li><a href='#todos'>Todos</a></li>
-          
+          <h4>company</h4>
+          <ul>
+            <li><a href='#home'>Home</a></li>
+            <li><a href='#portofolio'>Portofolio</a></li>
+            <li><a href='#about'>About Us</a></li>
+            <li><a href='#blog'>Blog</a></li>
+            <li><a href='#contact'>Contact Us</a></li>
+            <li><a href='#todos'>Todos</a></li>
           </ul>
         </div>
-        
-        
-      <div class="footer-col">
-        
-        <h4>Support</h4>
-        <ul>
-          
-          <li><a href='https://kampusmerdeka.kemdikbud.go.id/' target="_blank">Kampus Merdeka</a></li>
-          <li><a href='https://www.hacktiv8.com/' target="_blank">Hacktiv8</a></li>
-          <li><a href='https://kode.id/' target="_blank">Kode Id </a></li>
-   
-       
-        
-        
-        </ul>
+
+        <div class="footer-col">
+          <h4>Support</h4>
+          <ul>
+            <li><a href='https://kampusmerdeka.kemdikbud.go.id/' target="_blank">Kampus Merdeka</a></li>
+            <li><a href='https://www.hacktiv8.com/' target="_blank">Hacktiv8</a></li>
+            <li><a href='https://kode.id/' target="_blank">Kode Id </a></li>
+          </ul>
         </div>
-        
-        
-          <div class="footer-col">
-        
-        <h4>Address</h4>
-        <p>Jakarta, Indonesia</p>
+        <div class="footer-col">
+          <h4>Others</h4>
+          <ul>
+            <li><a href='https://kampusmerdeka.kemdikbud.go.id/' target="_blank">Todos App</a></li>
+          </ul>
         </div>
-        
-            
-        
-             <div class="footer-col">
-        
-        <h4>Follow Us </h4>
-             
-             <div class="social-links">
-             
-                 <a href='https://www.facebook.com/' target="_blank"> <i class="fab fa-facebook-f"></i></a>
-                  <a href='https://twitter.com/' target="_blank"> <i class="fab fa-twitter"></i></a>
-               <a href='https://www.instagram.com/' target="_blank"> <i class="fab fa-instagram"></i></a>
-               
-                 </div> 
-                </div>
-                <p class="footer-copyright">© Copyright 2022 Web Developed by <a target="_blank" href="https://www.instagram.com/"><b>siKilat Team</b></a></p>
-       </div>
+        <div class="footer-col">
+          <h4>Follow Us </h4>
+          <div class="social-links">
+            <a href='https://www.facebook.com/' target="_blank"> <i class="fab fa-facebook-f"></i></a>
+            <a href='https://twitter.com/' target="_blank"> <i class="fab fa-twitter"></i></a>
+            <a href='https://www.instagram.com/' target="_blank"> <i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <p class="footer-copyright">© Copyright 2022 Web Developed by <a target="_blank"
+            href="https://www.instagram.com/"><b>siKilat Team</b></a></p>
       </div>
-    </footer>
-    <div class='back-to-top'>
-      <a style="color: white;"> <i class="fa fa-angle-double-up"></i></a>
+    </div>
+  </footer>
+  <div class='back-to-top'>
+    <a style="color: white;"> <i class="fa fa-angle-double-up"></i></a>
   </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="fakeLoader.js"></script>
-    <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="fakeLoader.js"></script>
+  <script src="script.js"></script>
 </body>
+
 </html>
