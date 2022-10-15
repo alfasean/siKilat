@@ -341,24 +341,37 @@ ul {list-style: none;}
   color: #a5a5a7;	
 }
 
-.copyright{
-	font-size: 16px;
-  color: #a5a5a7;	
+
+footer .footer-copyright {
   text-align: center;
+  font-size: 16px;
+  margin-top: 70px;
+  color: #a5a5a7;
 }
+
+footer .footer-copyright a {
+  color: #a5a5a7;
+  text-decoration: none;
+}
+
+footer .footer-copyright a:hover {
+  color: #1E3163;
+}
+
 
 .footer-col h4{
 	font-size: 18px;
-	color: #a5a5a7;text-transform: capitalize;margin-bottom: 35px;font-weight: 500;position: relative;
+	color: #1E3163;text-transform: capitalize;margin-bottom: 35px;font-weight: 500;position: relative;
 }
 
 .footer-col h4::before{
 	content: '';
 	position: absolute;
-	left: 0; bottom: -10px;background-color: #a5a5a7;height: 2px;box-sizing: border-box;width: 50px;
+	left: 0; bottom: -10px;background-color: #1E3163;height: 2px;box-sizing: border-box;width: 50px;
 }
 
-.footer-col ul li:not(:last-child){margin-bottom: 10px;
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
 }
 
 .footer-col ul li a {
@@ -366,7 +379,7 @@ ul {list-style: none;}
 	transition: all 0.3s ease;
 }
 .footer-col ul li a:hover{
-	padding-left: 8px;color: #666666;
+	padding-left: 8px;color: #1E3163;
 }
 
 .footer-col .social-links a{
@@ -377,7 +390,7 @@ ul {list-style: none;}
 }
 
 .footer-col .social-links a:hover{
-	background-color: #fff; color: #24262b;
+	background-color: #fff; color: #1E3163;
 }
 
 
