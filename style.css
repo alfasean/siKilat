@@ -325,7 +325,7 @@ h1 {
 
 .container {
   max-width: 1170px;
-  margin: auto;
+  margin-bottom: -150px;
 }
 
 ul {
@@ -425,6 +425,9 @@ footer .footer-copyright a:hover {
   .footer-col {
     width: 50%;
     margin-bottom: 40px;
+  }
+  .container {
+    margin-bottom: -100px;
   }
 }
 
