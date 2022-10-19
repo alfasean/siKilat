@@ -1,13 +1,7 @@
 @font-face {
-  font-family: "Poppins";
+  font-family: "Poppins-bold";
   src: url("font/Poppins-Black.ttf");
 }
-
-@font-face {
-  font-family: "Poppins-med";
-  src: url("font/Poppins-Medium.ttf");
-}
-
 
 .navbar {
   top: 0;
@@ -28,7 +22,7 @@
   color: #ffffff;
   margin-left: 15px;
   margin-bottom: 2px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins-bold", sans-serif;
 }
 
 #logo {
@@ -45,7 +39,7 @@
 
 .nav-link {
   color: #ffffff;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins-bold", sans-serif;
   text-decoration: none;
 }
 
@@ -80,11 +74,11 @@
 }
 
 .tagline {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins-bold", sans-serif;
 }
 
 #typing {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins-bold", sans-serif;
 }
 
 #show {
