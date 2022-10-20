@@ -3,6 +3,14 @@
   src: url("font/Poppins-Black.ttf");
 }
 
+@font-face {
+  font-family: "Poppins-regular";
+  src: url("font/Poppins-Regular.ttf");
+}
+
+p {
+  font-family: "Poppins-regular", sans-serif;
+}
 .navbar {
   top: 0;
   position: fixed;
@@ -52,6 +60,10 @@
   left: 0;
   bottom: -10px;
   transition: 0.3s;
+}
+
+.navbar-brand:hover {
+  color: #fff;
 }
 
 .nav-link:hover {
