@@ -447,7 +447,7 @@ footer .footer-copyright a:hover {
 
 @media only screen and (max-width: 1162px) {
   .img-banner {
-    margin-top: 50px;
+    margin-top: 70px;
     width: 50%;
     height: 500px;
   }
@@ -464,7 +464,7 @@ footer .footer-copyright a:hover {
     width: 50%;
     height: 500px;
     float: left;
-    margin-top: 55px;
+    margin-top: 80px;
   }
 
   #typing {
@@ -493,7 +493,7 @@ footer .footer-copyright a:hover {
   }
 
   .img-banner {
-    margin-top: 100px;
+    margin-top: 120px;
     width: 50%;
     height: 500px;
     float: left;
@@ -534,7 +534,7 @@ footer .footer-copyright a:hover {
   .img-banner {
     margin-top: 100px;
     width: 50%;
-    height: 500px;
+    height: 600px;
     float: left;
   }
 
